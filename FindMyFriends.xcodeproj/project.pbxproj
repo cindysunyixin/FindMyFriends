@@ -14,6 +14,8 @@
 		D89A8B711C6FDAF70087D1B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89A8B6F1C6FDAF70087D1B8 /* LaunchScreen.storyboard */; };
 		D89A8B7C1C6FDAF70087D1B8 /* FindMyFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A8B7B1C6FDAF70087D1B8 /* FindMyFriendsTests.swift */; };
 		D89A8B871C6FDAF70087D1B8 /* FindMyFriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A8B861C6FDAF70087D1B8 /* FindMyFriendsUITests.swift */; };
+		D89A8B951C6FDB360087D1B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89A8B941C6FDB360087D1B8 /* MapKit.framework */; };
+		D89A8B971C6FDB3F0087D1B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89A8B961C6FDB3E0087D1B8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D89A8B821C6FDAF70087D1B8 /* FindMyFriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyFriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89A8B861C6FDAF70087D1B8 /* FindMyFriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsUITests.swift; sourceTree = "<group>"; };
 		D89A8B881C6FDAF70087D1B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89A8B941C6FDB360087D1B8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D89A8B961C6FDB3E0087D1B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89A8B971C6FDB3F0087D1B8 /* CoreLocation.framework in Frameworks */,
+				D89A8B951C6FDB360087D1B8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +83,8 @@
 		D89A8B5A1C6FDAF60087D1B8 = {
 			isa = PBXGroup;
 			children = (
+				D89A8B961C6FDB3E0087D1B8 /* CoreLocation.framework */,
+				D89A8B941C6FDB360087D1B8 /* MapKit.framework */,
 				D89A8B651C6FDAF60087D1B8 /* FindMyFriends */,
 				D89A8B7A1C6FDAF70087D1B8 /* FindMyFriendsTests */,
 				D89A8B851C6FDAF70087D1B8 /* FindMyFriendsUITests */,
